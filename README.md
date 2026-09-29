@@ -30,4 +30,4 @@ pip install customtkinter
    $current = @(Get-NetFirewallRule -Name 'Block_IP' | Get-NetFirewallAddressFilter | Select-Object -ExpandProperty RemoteAddress)
    Set-NetFirewallRule -Name 'Block_IP' -RemoteAddress ($current + 'TARGET_IP')
 
-> [!DANGER] This tool DOES NOT cover all not dangerous IP adresses from being blocked. Check twice before applying changes.
+> [!CAUTION] This tool DOES NOT cover all not dangerous IP adresses from being blocked. Check twice before applying changes.
