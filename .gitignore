@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments & Virtual Envs
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.env
+
+# IDE & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Distribution / packaging (por si usas PyInstaller o cx_Freeze)
+build/
+dist/
+*.spec
+
+# OS Generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
