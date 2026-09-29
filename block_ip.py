@@ -1,6 +1,5 @@
 #Importaciones
 import customtkinter as tk
-from PIL import Image as img
 import os
 import ctypes
 import subprocess as sp
